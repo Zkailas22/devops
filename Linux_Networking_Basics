@@ -1,0 +1,13 @@
+Below are the common commands which i used during troubleshoot time hope this will be helpful to many others:
+
+ifconfig: This command is used to configure and display network interface parameters. It's commonly used to check the IP address of a machine, but note that it is deprecated on many Linux distributions in favor of ip.
+ip addr show: This command is used to display IP addresses and property information of network interfaces. It is a modern replacement for ifconfig.
+ping: Correctly described. It sends ICMP Echo Request packets to a destination to check its reachability.
+netstat -antp: This command displays network connections, routing tables, interface statistics, masquerade connections, and multicast memberships. The -antp options specifically show all listening and non-listening sockets with associated processes.
+nmap: Correctly described as a network scanning tool to discover hosts and services on a computer network. Note the legal considerations in some regions.
+dig: Correctly described. It is a command-line tool for querying DNS name servers for information about host addresses, mail exchanges, name servers, and related information.
+nslookup: Correctly described as an older tool for querying DNS to obtain domain name or IP address mapping.
+arp: Displays and modifies the system's ARP cache, which is the table of IP address to MAC address mappings.
+mtr: This tool combines the functionality of ping and traceroute to provide a continuous network path analysis.
+traceroute: Correctly described. It traces the path packets take to a network host.
+telnet: Correctly described as a tool to connect to remote hosts, often used to test connectivity to a specific port.
