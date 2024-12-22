@@ -11,3 +11,32 @@ arp: Displays and modifies the system's ARP cache, which is the table of IP addr
 mtr: This tool combines the functionality of ping and traceroute to provide a continuous network path analysis.
 traceroute: Correctly described. It traces the path packets take to a network host.
 telnet: Correctly described as a tool to connect to remote hosts, often used to test connectivity to a specific port.
+
+
+####################################  IMPORTANT PORT NUMBERS which i say its important for DevOps Role  ########################################
+HTTP: Port 80
+HTTPS: Port 443
+SSH: Port 22
+FTP: Port 21
+SFTP: Port 22 (same as SSH)
+SMTP: Port 25
+IMAP: Port 143
+IMAPS: Port 993
+POP3: Port 110
+POP3S: Port 995
+DNS: Port 53
+MySQL: Port 3306
+PostgreSQL: Port 5432
+MongoDB: Port 27017
+Redis: Port 6379
+RabbitMQ: Port 5672
+Elasticsearch: Port 9200
+Kibana: Port 5601
+Docker Daemon: Port 2375 (unencrypted) / 2376 (encrypted)
+Kubernetes API Server: Port 6443
+Consul: Port 8500
+Vault: Port 8200
+Jenkins: Port 8080
+GitLab: Port 80 (HTTP) / 443 (HTTPS) / 22 (SSH)
+Prometheus: Port 9090
+Grafana: Port 3000
